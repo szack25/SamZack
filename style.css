@@ -31,7 +31,8 @@ p, span, div {
     font-family: 'Comfortaa', cursive;
 }
 section {
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 500px;
 }
 .bg-img {
     position: fixed;
@@ -168,8 +169,8 @@ footer {
     bottom: 0px;
     position: relative;
 }
-.text-container {
-    padding-top: 20px;
+.copyright, .text-right {
+    padding-top: 15px;
 }
 .p-left {
     padding-left: 5px;
@@ -177,6 +178,13 @@ footer {
 footer a {color: white; text-decoration: none;}
 footer a:link {color: white; text-decoration: none;}
 footer a:hover {color: rgb(26, 40, 234)}
+.text-right {
+    position: absolute;
+    right: 20px;
+}
+.text-container p.copyright {
+    display: inline-block;
+}
 @media (max-width: 900px) {
     .bg-img {
         display: none;
@@ -189,7 +197,7 @@ footer a:hover {color: rgb(26, 40, 234)}
         width: 95%;
         margin: 20px auto;
     }
-    .photo-cred {
+    .photo-cred, .text-right {
         display: none;
     }
 
