@@ -162,7 +162,7 @@ section {
     display: block;
 }
 .contact-me {
-    margin-top: 20px;
+    margin-top: 20px !important;
     font-size: 1.1rem;
 }
 /* Footer */
@@ -206,4 +206,9 @@ footer a:hover {color: rgb(26, 40, 234)}
         display: none;
     }
 
+}
+@media (min-width: 1200px) and (max-width: 1410px) {
+    .contact-me {
+        width: 120px;
+    }
 }
