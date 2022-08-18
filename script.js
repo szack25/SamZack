@@ -5,3 +5,4 @@ let month = currentDay.getMonth() - birthday.getMonth();
 let day = currentDay.getDate() - birthday.getDate();
 
 document.querySelector(".yearsold").textContent = age;
+

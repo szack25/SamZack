@@ -152,6 +152,7 @@ section {
     border-radius: 8px;
     padding: 10px;
     margin-left: 20px;
+    background-color: white;
 }
 .certification {
     margin-bottom: 40px;
@@ -159,6 +160,10 @@ section {
 }
 .certification a {
     display: block;
+}
+.contact-me {
+    margin-top: 20px;
+    font-size: 1.1rem;
 }
 /* Footer */
 footer {
