@@ -1,12 +1,12 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
 html {
     font-size: 16px;
 }
 /* General */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Spinnaker', 'Comfortaa', sans-serif;
 }
 h1 {
     font-size: 2rem;
@@ -28,11 +28,11 @@ h6 {
 }
 p, span, div {
     font-size: 1rem;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa';
 }
 section {
+    min-height: 800px !important;
     height: 100vh;
-    min-height: 500px;
 }
 .bg-img {
     position: fixed;
@@ -96,7 +96,7 @@ section {
   }
   
 /* Home Section */
-.container {
+#home .container {
     left: 0px; 
     right: 0px;
     width: 100%;
@@ -111,7 +111,7 @@ section {
 }
 #home h4 {
     font-weight: bold;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa';
 }
 /* My Work Section */
 #mywork {
@@ -145,18 +145,16 @@ section {
 #aboutme {
     scroll-margin-top: 60px;
 }
-.certification, .career {
+.certification, .career, .skills {
     height: min-content;
-    width: 50%;
+    width: 40%;
     border: 1px solid black;
     border-radius: 8px;
     padding: 10px;
-    margin-left: 20px;
     background-color: white;
-}
-.certification {
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .certification a {
     display: block;
@@ -198,7 +196,7 @@ footer a:hover {color: rgb(26, 40, 234)}
         width: 95%;
         margin: 0 auto;
     }
-    .certification, .career {
+    .certification, .career, .skills {
         width: 95%;
         margin: 20px auto;
     }
